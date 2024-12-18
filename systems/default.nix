@@ -14,7 +14,7 @@
     "${user}" = {
       home = "/home/${user}";
       isNormalUser = true;
-      extraGroups = [ "wheel" ];
+      extraGroups = [ "wheel" "docker" ];
     };
   };
 }

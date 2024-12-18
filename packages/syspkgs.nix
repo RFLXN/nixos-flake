@@ -9,6 +9,10 @@
     zsh
     zsh-powerlevel10k
 
+    # docker
+    docker
+    docker-client
+
     # default tools
     file
     hostname

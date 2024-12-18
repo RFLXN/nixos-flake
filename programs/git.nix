@@ -9,9 +9,8 @@
         ".idea"
       ];
       extraConfig = {
-        init = {
-          defaultBranch = "main";
-        };
+        init.defaultBranch = "main";
+        credential.helper = "store";
       };
     };
   };
